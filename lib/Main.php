@@ -2,8 +2,8 @@
 
 class DokanPaySDKPHP{
 
-    const MerchantApiToken = '7704980c3671dd9fbafe333ee079e137';
-    const DokanPayApiEndPoint = 'https://merchant-api.dokan.sa/v1/DokanPay/Transaction/';
+    const MerchantApiToken = 'PLACE-IT-HERE'; // Your Dokan.sa Merchant API Token
+    const DokanPayApiEndPoint = 'https://merchant-api.dokan.sa/v1/DokanPay/Transaction/'; // DOKAN.SA API Endpoint.
 
     
     function CreateTransaction($data){
